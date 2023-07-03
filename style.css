@@ -70,9 +70,16 @@ body {
   opacity: 0;
   bottom: 0;
   width: 100%;
+  font-size: 14px;
   color: white;
   background-color: rgba(127, 127, 127, 0.807);
   transition: opacity 500ms linear;
+}
+
+@media screen and (min-width: 768px) {
+  .item-div {
+    font-size: 18px;
+  }
 }
 
 .item:hover .item-div {
